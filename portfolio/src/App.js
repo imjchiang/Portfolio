@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import './css/App.css';
@@ -5,6 +6,10 @@ import './css/main.css';
 
 function App() 
 {
+    const [about, setAbout] = useState(true);
+    const [project, setProject] = useState(false);
+    const [contact, setContact] = useState(false);
+
     return (
         <div>
             <h1 className="title">Joshua Chiang</h1>
