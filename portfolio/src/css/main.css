@@ -1,9 +1,22 @@
 body
 {
-    margin: 5vh 5vw 2vh 5vw;
+    margin: 12vh 10vw 2vh 10vw;
 }
 
 .title
 {
-    font-size: 3vw;
+    font-size: 5vw;
+    margin-bottom: 10vh;
+}
+
+.navbar
+{
+    display: flex;
+}
+
+.nav
+{
+    margin: 0 2vw 1vh 2vw;
+    font-size: 1.5vw;
+    text-decoration: unset;
 }
