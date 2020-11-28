@@ -20,7 +20,7 @@ hr
     display: flex;
 }
 
-.nav
+.nav, .nav-true
 {
     margin: 0 0 0 0.5vw;
     padding: 0.3vh 2vw 1vh 2vw;
@@ -31,11 +31,21 @@ hr
     cursor: pointer;
 }
 
-.nav:hover
+.nav:hover, .nav-true
 {
     background-image: linear-gradient(white, rgba(212, 212, 212, 0.26), rgb(212, 212, 212));
     border: 2px solid transparent;
     border-width: 0 2px 0 2px;
     border-image: linear-gradient(to top, black, white);
     border-image-slice: 1;
+}
+
+.nav-true
+{
+    background-image: linear-gradient(white, rgba(151, 219, 221, 0.26), rgb(151, 219, 221));
+}
+
+.info
+{
+    margin: 5vh 2vw 1vh 2vw;
 }

@@ -31,14 +31,14 @@ function App()
     }
 
     const aboutMe =
-        <div>
+        <div className="info">
             <h2>Skills</h2>
             <h2>Work Experience</h2>
             <h2>Education</h2>
         </div>
     
     const myProjects =
-        <div>
+        <div className="info">
             <h2>Balloon Bomber</h2>
             <h2>lolinfo</h2>
             <h2>exitcodeZero</h2>
@@ -47,7 +47,7 @@ function App()
         </div>
     
     const contactInfo =
-        <div>
+        <div className="info">
             <h2>LinkedIn</h2>
             <h2>GitHub</h2>
             <h2>Resume Here</h2>
@@ -57,9 +57,27 @@ function App()
         <div>
             <h1 className="title">Joshua Chiang</h1>
             <span className="navbar">
-                <p className="nav" onClick={handleAboutClick}>About Me</p>
-                <p className="nav" onClick={handleProjectClick}>My Projects</p>
-                <p className="nav" onClick={handleContactClick}>Contact Info</p>
+                {
+                    about
+                    ?
+                    <p className="nav-true">About Me</p>
+                    :
+                    <p className="nav" onClick={handleAboutClick}>About Me</p>
+                }
+                {
+                    project
+                    ?
+                    <p className="nav-true">My Projects</p>
+                    :
+                    <p className="nav" onClick={handleProjectClick}>My Projects</p>
+                }
+                {
+                    contact
+                    ?
+                    <p className="nav-true">Contact Info</p>
+                    :
+                    <p className="nav" onClick={handleContactClick}>Contact Info</p>
+                }
             </span>
             <hr />
 
