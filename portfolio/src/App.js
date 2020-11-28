@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 import './css/App.css';
 import './css/main.css';
@@ -31,6 +30,29 @@ function App()
         setContact(true);
     }
 
+    const aboutMe =
+        <div>
+            <h2>Skills</h2>
+            <h2>Work Experience</h2>
+            <h2>Education</h2>
+        </div>
+    
+    const myProjects =
+        <div>
+            <h2>Balloon Bomber</h2>
+            <h2>lolinfo</h2>
+            <h2>exitcodeZero</h2>
+            <h2>Ride or Share</h2>
+            <h2>rKD</h2>
+        </div>
+    
+    const contactInfo =
+        <div>
+            <h2>LinkedIn</h2>
+            <h2>GitHub</h2>
+            <h2>Resume Here</h2>
+        </div>
+
     return (
         <div>
             <h1 className="title">Joshua Chiang</h1>
@@ -40,6 +62,31 @@ function App()
                 <p className="nav" onClick={handleContactClick}>Contact Info</p>
             </span>
             <hr />
+
+            {
+                about
+                ?
+                aboutMe
+                :
+                <></>
+            }
+
+            {
+                project
+                ?
+                myProjects
+                :
+                <></>
+            }
+
+            {
+                contact
+                ?
+                contactInfo
+                :
+                <></>
+            }
+
         </div>
     );
 }
