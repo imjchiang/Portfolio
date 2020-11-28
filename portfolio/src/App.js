@@ -10,13 +10,34 @@ function App()
     const [project, setProject] = useState(false);
     const [contact, setContact] = useState(false);
 
+    const handleAboutClick = () =>
+    {
+        setAbout(true);
+        setProject(false);
+        setContact(false);
+    }
+
+    const handleProjectClick = () =>
+    {
+        setAbout(false);
+        setProject(true);
+        setContact(false);
+    }
+
+    const handleContactClick = () =>
+    {
+        setAbout(false);
+        setProject(false);
+        setContact(true);
+    }
+
     return (
         <div>
             <h1 className="title">Joshua Chiang</h1>
             <span className="navbar">
-                <p className="nav">About Me</p>
-                <p className="nav">My Projects</p>
-                <p className="nav">Contact Info</p>
+                <p className="nav" onClick={handleAboutClick}>About Me</p>
+                <p className="nav" onClick={handleProjectClick}>My Projects</p>
+                <p className="nav" onClick={handleContactClick}>Contact Info</p>
             </span>
             <hr />
         </div>
