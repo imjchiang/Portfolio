@@ -3,10 +3,16 @@ body
     margin: 12vh 10vw 2vh 10vw;
 }
 
+hr
+{
+    margin: 0;
+    border: solid 1px rgb(37, 37, 37);
+}
+
 .title
 {
     font-size: 5vw;
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
 }
 
 .navbar
@@ -16,6 +22,20 @@ body
 
 .nav
 {
-    margin: 0 2vw 1vh 2vw;
-    font-size: 1.5vw;
+    margin: 0 0 0 0.5vw;
+    padding: 0.3vh 2vw 1vh 2vw;
+    border: solid 2px transparent;
+    border-width: 0 2px 0 2px;
+    text-align: center;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.nav:hover
+{
+    background-image: linear-gradient(white, rgba(212, 212, 212, 0.26), rgb(212, 212, 212));
+    border: 2px solid transparent;
+    border-width: 0 2px 0 2px;
+    border-image: linear-gradient(to top, black, white);
+    border-image-slice: 1;
 }
