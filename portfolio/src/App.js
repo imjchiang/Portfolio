@@ -31,11 +31,64 @@ function App()
     }
 
     const aboutMe =
-        <div className="info">
+    <>
+        <div className="cat">
             <h2>Skills</h2>
+            <h3>Programming Languages</h3>
+            <div className="subcat">
+                <div className="info">
+                    <li>HTML / CSS / JavaScript</li>
+                    <li>Python</li>
+                    <li>C++ (fundamentals)</li>
+                </div>
+                <div className="info">
+                    <li>Java (fundamentals)</li>
+                    <li>PostgreSQL</li>
+                    <li>MongoDB</li>
+                </div>
+            </div>
+
+            <h3>Modern Frameworks</h3>
+            <div className="subcat">
+                <div className="info">
+                    <li>React</li>
+                    <li>Node.js</li>
+                </div>
+                <div className="info">
+                    <li>Django</li>
+                    <li>Express</li>
+                </div>
+            </div>
+
+            <h3>Data Storage and Extraction</h3>
+            <div className="subcat">
+                <div className="info">
+                    <li>RESTful APIs ( use / create )</li>
+                </div>
+                <div className="info">
+                    <li>Web Scraping</li>
+                </div>
+            </div>
+
+            <h3>Version Control and Testing</h3>
+            <div className="subcat">
+                <div className="info">
+                    <li>GitHub / git</li>
+                    <li>Jupyter Notebooks</li>
+                </div>
+                <div className="info">
+                    <li>unittest</li>
+                </div>
+            </div>
+        </div>
+
+        <div className="cat">
             <h2>Work Experience</h2>
+        </div>
+        <div className="cat">
             <h2>Education</h2>
         </div>
+    </>
     
     const myProjects =
         <div className="info">
