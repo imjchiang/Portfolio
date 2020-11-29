@@ -84,8 +84,42 @@ function App()
 
         <div className="cat">
             <h2>Work Experience</h2>
+            <h3>UCLA Health - Care Extenders / Department Coordinator (Santa Monica Hospital - Neonatal Intensive Care Unit)</h3>
+            <div className="subcat">
+                <div>
+                    <p>August 2019 - November 2020,  LOS ANGELES</p>
+                    <p>Fulfill responsibilities such as: scheduling shifts, making rounds, admit/interview/orient new CEs (Care Extenders), develop improvements to the program, communicate and coordinate with hospital staff.</p>
+                </div>
+            </div>
 
+            <h3>UCLA Health - Care Extenders / Volunteer</h3>
+            <div className="subcat">
+                <div>
+                    <p>August 2018 - November 2020,  LOS ANGELES</p>
+                    <p>Assisted patients at the hospital to make them feel at ease and comfortable throughout their entire treatment or stay.</p>
+                    <p>Fulfill responsibilities such as: making rounds on patients, assisting nurses and care partners, restocking medical supplies, delivering and picking lab samples and materials, and disinfecting the unit.</p>
+                </div>
+            </div>
+
+            <h3>UCLA - Learning Assistants / Pedagogy Head Learning Assistant</h3>
+            <div className="subcat">
+                <div>
+                    <p>January 2020 - March 2020,  LOS ANGELES</p>
+                    <p>Familiarized new learning assistants with the ideologies practiced by learning assistants in teaching and interacting with other students.</p>
+                    <p>Led meetings to teach learning assistants on how to address and reach out to students while applying the inclusive teaching practices and experimentally proven teaching strategies.</p>
+                    <p>Observed learning assistants and gave feedback on how their teaching practices and application of teaching strategies could be improved.</p>
+                </div>
+            </div>
+
+            <h3>UCLA - Learning Assistants / Learning Assistant</h3>
+            <div className="subcat">
+                <div>
+                    <p>January 2018 - March 2020,  LOS ANGELES</p>
+                    <p>Enhanced education through the use of inclusive teaching practices and experimentally proven teaching strategies and assist students through the redirecting of questions to foster thinking and reflecting to promote understanding and a growth mindset among students in STEM fields. </p>
+                </div>
+            </div>
         </div>
+        
         <div className="cat">
             <h2>Education</h2>
             <h3>General Assembly - Software Engineering Immersive</h3>
