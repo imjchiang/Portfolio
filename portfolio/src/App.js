@@ -84,9 +84,25 @@ function App()
 
         <div className="cat">
             <h2>Work Experience</h2>
+
         </div>
         <div className="cat">
             <h2>Education</h2>
+            <h3>General Assembly - Software Engineering Immersive</h3>
+            <div className="subcat">
+                <div>
+                    <p>July 2020 - October 2020, San Francisco</p>
+                    <p>Participated in a full-time immersive Software Engineering course, completing in-class projects, hackathons, and personal projects focused on real-world applications of software engineering principles and best practices.</p>
+                </div>
+            </div>
+
+            <h3>University of California, Los Angeles (UCLA) - Biochemistry, B.S. (GPA: 3.6)</h3>
+            <div className="subcat">
+                <div>
+                    <p>September 2016 - June 2020, Los Angeles</p>
+                    <p>Dean’s Honor List: Winter 2017, Spring 2017, Fall 2017, Winter 2018, Fall 2018</p>
+                </div>
+            </div>
         </div>
     </>
     
